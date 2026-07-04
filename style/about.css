@@ -11,7 +11,13 @@
 .about>.public_h2 {
       display: flex;
       justify-content: flex-start;
+
+
+      
 }
+
+
+
 .about_number {
       display: flex;
       align-items: center;
