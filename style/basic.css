@@ -1,0 +1,48 @@
+/* *****   FONTS  ****** */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+
+:root {
+      --main-and-btn-color: #263238;
+      --public-p: #8F95A5;
+      --bg-color: #E5E5E5;
+      --price-bg-color: #EEEEEE;
+}
+
+/* ******  BASIC STYLE ****** */
+*,*::after,*::before {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+}
+html {
+      font-size: 62.5%;
+      /* font-size : 10; */
+}
+a {
+      display: inline-block;
+      text-decoration: none;
+}
+ul {
+      list-style: none;
+}
+
+/* ====== CONTAINER STYLE  ======= */
+.container {
+      max-width: 134rem;
+      margin: 0 auto;
+}
+
+@media screen and (max-width:992px){
+      .container{
+            max-width: 94.2rem;
+      }
+}
+
+@media screen and (max-width:768px){
+      .container{
+            max-width: 71.3rem;
+      } 
+}

@@ -1,0 +1,101 @@
+
+/* PRICING STYLE */
+.pricing {
+      margin-top: 7.1rem;
+      display: flex;
+      align-items: end;
+      gap: 10rem;
+      justify-content: space-between;
+      margin-bottom: 26.1rem;
+}
+.pricing_online {
+      width: 33%;
+      padding-right: 1rem;
+}
+.pricing_online>img {
+      margin-bottom: 5.4rem;
+      width: 85%;
+}
+.price_lesson>img {
+      width: 100%;
+      padding-top: 5rem;
+}
+.money_month {
+      background-color: var(--price-bg-color);
+      width: 70%;
+      padding: 0rem 2.4rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-radius: 0.5rem;
+
+}
+.money_month>span {
+      font-weight: 400;
+      font-size: 3rem;
+      line-height: 4.5rem;
+      color: var(--main-and-btn-color);
+}
+.pricing_p {
+      font-weight: 400;
+      font-size: 1.8rem;
+      line-height: 2.7rem;
+      color: #546269;
+}
+
+/* max-width -> 992px  */
+@media screen and (max-width:992px){
+      .pricing_online>img {
+            width: 100%;
+      }
+      .price_lesson>img {
+            width: 100%;
+            padding-top: 5rem;
+      }
+      .pricing{
+            align-items: end;
+            gap: 7rem;
+            margin-bottom: 13.6rem;
+      }
+      .pricing_online h3{
+            font-size: 2.1rem;
+            line-height: 3.4rem;
+      }
+      .money_month>span {
+            font-size: 2rem;
+            line-height: 3.6rem;
+            color: var(--main-and-btn-color);
+      }      
+      .pricing_p {
+            font-size: 1.1rem;
+            line-height: 2rem;
+            color: #546269;
+      }
+      .onl .money_month{
+            margin-top: 3.3rem;
+
+      }
+}
+
+@media screen and (max-width:768px){
+      .pricing {
+            margin-top: 3.9rem;
+            margin-bottom: 6.3rem;
+      }
+      .pricing_online h3{
+            font-size: 2.1rem;
+            line-height: 3.4rem;
+      }
+      .money_month>span {
+            font-size: 1.4rem;
+
+      } 
+      .money_month 
+      .pricing_p {
+            font-size: 0.8rem;
+
+      }
+
+
+}
+
